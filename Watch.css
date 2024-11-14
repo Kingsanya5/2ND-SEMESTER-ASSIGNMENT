@@ -1,0 +1,87 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b1b3d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu-icon span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+. card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ffea8a;
+    color: #000;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.product-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.card-content h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+.card-content h2 span {
+    font-weight: normal;
+    font-size: 1rem;
+    color: #666;
+}
+
+.card-content p {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 10px;
+    padding: 0 10px;
+}
